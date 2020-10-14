@@ -6,6 +6,9 @@ export const config: Config = {
     {
       type: 'dist',
       esmLoaderPath: '../loader',
+      copy: [
+        { src: "../node_modules/@esri/calcite-ui-icons/js/*.json", dest: "icons" }
+      ]
     },
     {
       type: 'dist-custom-elements-bundle',

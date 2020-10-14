@@ -22,6 +22,7 @@
     "generate": "stencil generate"
   },
   "dependencies": {
+    "@esri/calcite-ui-icons": "3.13.0",
     "@stencil/core": "^2.0.1"
   },
   "license": "MIT"
