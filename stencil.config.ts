@@ -18,6 +18,12 @@ export const config: Config = {
     },
     {
       type: 'www',
+
+      // is this necessary or should anything in dist be considered content for `www/build/`?
+      // copy: [
+      //   { src: "../node_modules/@esri/calcite-ui-icons/js/*.json", dest: "build/icons" }
+      // ],
+
       serviceWorker: null, // disable service workers
     },
   ],
